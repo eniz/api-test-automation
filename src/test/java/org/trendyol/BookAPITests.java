@@ -158,8 +158,8 @@ public class BookAPITests extends ApiTestCase {
 
     @Test(description = "Verify that cannot create a duplicate book.")
     public void checkDuplicateBook(){
-        String putRequestTitle = "Lorem Ipsum";
-        String putRequestAuthor = "Dolor Sit Amet";
+        String putRequestTitle = "Kar";
+        String putRequestAuthor = "Orhan Pamuk";
 
         JSONObject putRequestParams = new JSONObject();
         putRequestParams.put("title", putRequestTitle);
